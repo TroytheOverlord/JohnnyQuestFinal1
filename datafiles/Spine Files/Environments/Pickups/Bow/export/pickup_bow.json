@@ -1,0 +1,59 @@
+{
+"skeleton": { "hash": "JANvDN5rXuY", "spine": "4.0.45", "x": -52.52, "y": -55.46, "width": 106.03, "height": 145.52 },
+"bones": [
+	{ "name": "root" },
+	{ "name": "bow", "parent": "root", "rotation": 5.35 }
+],
+"slots": [
+	{ "name": "string", "bone": "bow", "attachment": "string" },
+	{ "name": "bow", "bone": "bow", "attachment": "bow" },
+	{ "name": "arrow", "bone": "bow", "attachment": "arrow" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"arrow": {
+				"arrow": { "x": 2.07, "y": 16.73, "rotation": -10.3, "width": 104, "height": 28 }
+			},
+			"bow": {
+				"bow": { "x": 4, "y": 17, "rotation": -10.29, "width": 47, "height": 142 }
+			},
+			"string": {
+				"string": { "x": -10.66, "y": 18.61, "scaleY": 2.0909, "rotation": -9.52, "width": 5, "height": 56 }
+			}
+		}
+	}
+],
+"animations": {
+	"pickup": {
+		"bones": {
+			"bow": {
+				"rotate": [
+					{ "curve": "stepped" },
+					{ "time": 0.8 }
+				],
+				"translate": [
+					{
+						"curve": [ 0.111, 0, 0.289, 0, 0.153, 0, 0.247, -6.74 ]
+					},
+					{
+						"time": 0.4,
+						"y": -6.96,
+						"curve": [ 0.511, 0, 0.689, 0, 0.545, -7.16, 0.657, 0 ]
+					},
+					{ "time": 0.8 }
+				],
+				"scale": [
+					{ "curve": "stepped" },
+					{ "time": 0.8 }
+				],
+				"shear": [
+					{ "curve": "stepped" },
+					{ "time": 0.8 }
+				]
+			}
+		}
+	}
+}
+}

@@ -1,0 +1,17 @@
+prop_treasurechest.png
+size:691,193
+filter:Linear,Linear
+chest_closed_gold
+bounds:453,11,182,119
+offsets:1,1,184,121
+rotate:90
+chest_closed_silver
+bounds:572,11,182,119
+offsets:1,1,184,121
+rotate:90
+chest_open_gold
+bounds:0,0,227,193
+offsets:1,1,229,195
+chest_open_silver
+bounds:227,0,226,193
+offsets:1,1,228,195

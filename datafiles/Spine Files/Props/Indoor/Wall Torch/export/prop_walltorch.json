@@ -1,0 +1,58 @@
+{
+"skeleton": { "hash": "3kZMX1r4jZc", "spine": "4.0.45", "x": -37.97, "y": -0.85, "width": 74, "height": 189.74 },
+"bones": [
+	{ "name": "root" },
+	{ "name": "bone", "parent": "root", "length": 33.9, "rotation": 90, "x": -1.48, "y": 66.66 }
+],
+"slots": [
+	{ "name": "fire_torch_1", "bone": "bone", "attachment": "fire_torch_1" },
+	{ "name": "torch", "bone": "root", "attachment": "torch" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"fire_torch_1": {
+				"fire_torch_1": { "x": 55.23, "y": -0.5, "rotation": -90, "width": 74, "height": 134 },
+				"fire_torch_2": { "x": 47.23, "y": 1, "rotation": -90, "width": 69, "height": 118 },
+				"fire_torch_3": { "x": 58.73, "y": -2, "rotation": -90, "width": 69, "height": 143 },
+				"fire_torch_4": { "x": 60.73, "y": -3.5, "rotation": -90, "width": 68, "height": 145 },
+				"fire_torch_5": { "x": 64.23, "y": -0.81, "rotation": -90, "width": 70, "height": 152 },
+				"fire_torch_6": { "x": 39.73, "y": -2.5, "rotation": -90, "width": 70, "height": 105 },
+				"fire_torch_7": { "x": 48.23, "y": -3, "rotation": -90, "width": 71, "height": 120 }
+			},
+			"torch": {
+				"torch": { "x": -0.6, "y": 49.65, "width": 57, "height": 101 }
+			}
+		}
+	}
+],
+"animations": {
+	"walltorch_lit": {
+		"slots": {
+			"fire_torch_1": {
+				"attachment": [
+					{ "name": "fire_torch_1" },
+					{ "time": 0.1, "name": "fire_torch_2" },
+					{ "time": 0.2, "name": "fire_torch_3" },
+					{ "time": 0.3, "name": "fire_torch_4" },
+					{ "time": 0.4, "name": "fire_torch_5" },
+					{ "time": 0.5, "name": "fire_torch_6" },
+					{ "time": 0.6, "name": "fire_torch_7" },
+					{ "time": 0.7, "name": "fire_torch_1" }
+				]
+			}
+		}
+	},
+	"walltorch_unlit": {
+		"slots": {
+			"fire_torch_1": {
+				"attachment": [
+					{ "name": null },
+					{ "time": 0.0667, "name": null }
+				]
+			}
+		}
+	}
+}
+}

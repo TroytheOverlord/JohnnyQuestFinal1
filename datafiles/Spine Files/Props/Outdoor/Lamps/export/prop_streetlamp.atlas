@@ -1,0 +1,19 @@
+prop_streetlamp.png
+size:1024,256
+filter:Linear,Linear
+Hanging Lamp
+bounds:338,30,135,180
+offsets:2,1,138,182
+Street Lamp
+bounds:0,5,205,338
+offsets:1,1,207,341
+rotate:90
+light
+bounds:473,79,57,57
+offsets:1,1,59,59
+light_circle
+bounds:473,136,74,74
+offsets:1,1,76,76
+particle
+bounds:0,0,5,5
+offsets:1,1,7,7

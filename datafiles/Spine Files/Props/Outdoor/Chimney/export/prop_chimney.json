@@ -1,0 +1,126 @@
+{
+"skeleton": { "hash": "l4+Lsl0qbXY", "spine": "4.0.45", "x": -188.55, "y": -1.08, "width": 379, "height": 295 },
+"bones": [
+	{ "name": "root" },
+	{ "name": "bone", "parent": "root", "length": 56.72, "rotation": 90.52, "x": 4.17, "y": 40.9 }
+],
+"slots": [
+	{ "name": "chimney", "bone": "root", "attachment": "chimney" },
+	{ "name": "chimney_glow", "bone": "root", "attachment": "chimney_glow" },
+	{ "name": "fire_chimney_right_1", "bone": "root", "attachment": "fire_chimney_right_1" },
+	{ "name": "fire_chimney_left_1", "bone": "root", "attachment": "fire_chimney_left_1" },
+	{ "name": "fire_chimney_1", "bone": "root", "attachment": "fire_chimney_1" },
+	{ "name": "chimney_cover", "bone": "root", "attachment": "chimney_cover" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"chimney": {
+				"chimney": { "x": 0.95, "y": 146.42, "width": 379, "height": 295 }
+			},
+			"chimney_cover": {
+				"chimney_cover": { "x": -1.05, "y": 89.42, "width": 259, "height": 181 }
+			},
+			"chimney_glow": {
+				"chimney_glow": { "x": 2.95, "y": 105.92, "width": 275, "height": 146 }
+			},
+			"fire_chimney_1": {
+				"fire_chimney_1": { "x": 0.45, "y": 86.92, "width": 114, "height": 118 },
+				"fire_chimney_2": { "x": -6.05, "y": 92.42, "width": 123, "height": 133 },
+				"fire_chimney_3": { "x": -1.55, "y": 96.92, "width": 124, "height": 136 },
+				"fire_chimney_4": { "x": 1.95, "y": 89.42, "width": 131, "height": 119 },
+				"fire_chimney_5": { "x": 12.95, "y": 79.42, "width": 111, "height": 101 },
+				"fire_chimney_6": { "x": 13.45, "y": 78.42, "width": 114, "height": 105 },
+				"fire_chimney_7": { "x": 5.45, "y": 70.92, "width": 102, "height": 90 }
+			},
+			"fire_chimney_left_1": {
+				"fire_chimney_left_1": { "x": -28.55, "y": 75.42, "width": 94, "height": 85 },
+				"fire_chimney_left_2": { "x": -23.05, "y": 78.92, "width": 101, "height": 96 },
+				"fire_chimney_left_3": { "x": -27.55, "y": 81.42, "width": 98, "height": 97 },
+				"fire_chimney_left_4": { "x": -30.55, "y": 73.92, "width": 104, "height": 82 },
+				"fire_chimney_left_5": { "x": -37.55, "y": 69.92, "width": 92, "height": 76 },
+				"fire_chimney_left_6": { "x": -38.55, "y": 69.92, "width": 94, "height": 78 },
+				"fire_chimney_left_7": { "x": -32.05, "y": 64.92, "width": 85, "height": 68 }
+			},
+			"fire_chimney_right_1": {
+				"fire_chimney_right_1": { "x": 36.45, "y": 71.92, "width": 98, "height": 86 },
+				"fire_chimney_right_2": { "x": 41.95, "y": 74.92, "width": 107, "height": 96 },
+				"fire_chimney_right_3": { "x": 37.45, "y": 77.92, "width": 104, "height": 98 },
+				"fire_chimney_right_4": { "x": 33.95, "y": 70.42, "width": 111, "height": 83 },
+				"fire_chimney_right_5": { "x": 25.95, "y": 65.92, "width": 97, "height": 76 },
+				"fire_chimney_right_6": { "x": 25.45, "y": 65.92, "width": 98, "height": 78 },
+				"fire_chimney_right_7": { "x": 32.45, "y": 61.42, "width": 90, "height": 69 }
+			}
+		}
+	}
+],
+"animations": {
+	"chimney_lit": {
+		"slots": {
+			"fire_chimney_1": {
+				"attachment": [
+					{ "name": "fire_chimney_1" },
+					{ "time": 0.1, "name": "fire_chimney_2" },
+					{ "time": 0.2, "name": "fire_chimney_3" },
+					{ "time": 0.3, "name": "fire_chimney_4" },
+					{ "time": 0.4, "name": "fire_chimney_5" },
+					{ "time": 0.5, "name": "fire_chimney_6" },
+					{ "time": 0.6, "name": "fire_chimney_7" },
+					{ "time": 0.7, "name": "fire_chimney_1" }
+				]
+			},
+			"fire_chimney_left_1": {
+				"attachment": [
+					{ "name": "fire_chimney_left_5" },
+					{ "time": 0.1, "name": "fire_chimney_left_6" },
+					{ "time": 0.2, "name": "fire_chimney_left_7" },
+					{ "time": 0.3, "name": "fire_chimney_left_1" },
+					{ "time": 0.4, "name": "fire_chimney_left_2" },
+					{ "time": 0.5, "name": "fire_chimney_left_3" },
+					{ "time": 0.6, "name": "fire_chimney_left_4" }
+				]
+			},
+			"fire_chimney_right_1": {
+				"attachment": [
+					{ "name": "fire_chimney_right_3" },
+					{ "time": 0.1, "name": "fire_chimney_right_4" },
+					{ "time": 0.2, "name": "fire_chimney_right_5" },
+					{ "time": 0.3, "name": "fire_chimney_right_6" },
+					{ "time": 0.4, "name": "fire_chimney_right_7" },
+					{ "time": 0.5, "name": "fire_chimney_right_1" },
+					{ "time": 0.6, "name": "fire_chimney_right_2" }
+				]
+			}
+		}
+	},
+	"chimney_unlit": {
+		"slots": {
+			"chimney_glow": {
+				"attachment": [
+					{ "name": null },
+					{ "time": 0.0667, "name": null }
+				]
+			},
+			"fire_chimney_1": {
+				"attachment": [
+					{ "name": null },
+					{ "time": 0.0667, "name": null }
+				]
+			},
+			"fire_chimney_left_1": {
+				"attachment": [
+					{ "name": null },
+					{ "time": 0.0667, "name": null }
+				]
+			},
+			"fire_chimney_right_1": {
+				"attachment": [
+					{ "name": null },
+					{ "time": 0.0667, "name": null }
+				]
+			}
+		}
+	}
+}
+}
